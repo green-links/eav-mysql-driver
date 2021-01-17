@@ -1,0 +1,21 @@
+{
+    "autoload": {
+        "psr-4": {
+            "GreenLinks\\EavMySql\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false,
+    "repositories": [
+        {
+            "url":  "git@github.com:green-links/eav.git",
+            "type": "vcs"
+        }
+    ],
+    "require": {
+        "php":              ">=7.4",
+        "ext-pdo":          "*",
+        "psr/simple-cache": "^1.0",
+        "green-links/eav":  "dev-main"
+    }
+}
